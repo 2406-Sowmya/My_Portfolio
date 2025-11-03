@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a.active {
+  color: #ffd700;
+}
+
+.home {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.home h2 {
+  font-size: 2em;
+}
+
+.home span {
+  color: #007bff;
+}
+
+.btn {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px 40px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.biodata-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.biodata-table th, .biodata-table td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+}
+
+.biodata-table th {
+  background: #007bff;
+  color: white;
+  width: 30%;
+}
